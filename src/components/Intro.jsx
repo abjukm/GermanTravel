@@ -8,7 +8,9 @@ export const Intro = () => {
     <>
       <div
         className="min-w-screen bg-cover bg-center min-h-screen w-screen bg-no-repeat overflow-hidden flex flex-col items-center justify-center"
-        style={{ backgroundImage: `url(${bgImg})` }}
+        style={{
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 70%, #000), url(${bgImg})`,
+        }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
 
