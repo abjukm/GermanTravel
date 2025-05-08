@@ -13,17 +13,26 @@
     "@splidejs/splide": "^4.1.4",
     "@tailwindcss/vite": "^4.1.4",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "tailwindcss": "^4.1.4"
 =======
+=======
+>>>>>>> f4e6ceb92ea29862464351617dc4b93423585fc7
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
+<<<<<<< HEAD
     "swiper": "^11.2.6"
 >>>>>>> 58ce05c6f8a13403e6fcf756a5ddca361eeda7e0
+=======
+    "swiper": "^11.2.6",
+    "tailwindcss": "^4.1.4"
+>>>>>>> f4e6ceb92ea29862464351617dc4b93423585fc7
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
