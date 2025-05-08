@@ -1,5 +1,11 @@
+import Content from "./components/Content";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Content />
+    </>
+  );
 }
 
 export default App;
