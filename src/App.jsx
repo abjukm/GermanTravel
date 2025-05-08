@@ -1,5 +1,11 @@
+import { SecSection } from "./components/SecSection";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <SecSection />
+    </>
+  );
 }
 
 export default App;
