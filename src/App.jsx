@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function App() {
   return <></>;
 =======
@@ -32,6 +33,16 @@ function App() {
     </>
   );
 >>>>>>> 58ce05c6f8a13403e6fcf756a5ddca361eeda7e0
+=======
+import { Section } from "./components/Section";
+
+function App() {
+  return (
+    <>
+      <Section />
+    </>
+  );
+>>>>>>> 6f245701471de3c40d08d0a010d856256648de2b
 }
 
 export default App;
