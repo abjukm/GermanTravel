@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function App() {
   return <></>;
 =======
@@ -43,6 +44,16 @@ function App() {
     </>
   );
 >>>>>>> 6f245701471de3c40d08d0a010d856256648de2b
+=======
+import { SecSection } from "./components/SecSection";
+
+function App() {
+  return (
+    <>
+      <SecSection />
+    </>
+  );
+>>>>>>> 2476b9bb69874c984f64237e12b583e77c4b1c2e
 }
 
 export default App;
