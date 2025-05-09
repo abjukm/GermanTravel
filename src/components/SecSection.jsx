@@ -2,7 +2,7 @@ import React from "react";
 import img from "../assets/img/culture.jpg";
 import arrow from "../assets/icons/arrow.svg";
 
-export const SecSection = () => {
+const SecSection = () => {
   return (
     <>
       <div className="w-full bg-black h-screen">
@@ -32,15 +32,17 @@ export const SecSection = () => {
               }}
               className="w-40 cursor-pointer"
             >
-              <div className="text-[#FFC178] flex items-center justify-between mt-5 w-[140px] h-[25px] mt-[-22px]">
+              <div className="text-[#FFC178] flex items-center justify-between mt-5 w-[140px] h-[25px] mt-[-22px] hover:scale-110">
                 <p>читать дальше</p>
                 <img src={arrow} alt="" className="mt-1" />
               </div>
             </button>
           </div>
-          <img src={img} alt="img" className="w-[470px] h-[590px] ml-20" />
+          <img src={img} alt="img" className="w-[470px] h-[590px] ml-[200px]" />
         </div>
       </div>
     </>
   );
 };
+
+export default SecSection;

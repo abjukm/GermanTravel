@@ -5,7 +5,7 @@ import arrow from "../assets/icons/sectionArrow.svg";
 export const Section = () => {
   return (
     <>
-      <div className="w-full bg-black">
+      <div className="w-full h-[770px] bg-black mt-[-20px]" id="second">
         <div className="w-[70%] ml-[15%] flex justify-around items-center h-[700px]">
           <img src={img} alt="img" className="w-[500px] h-[620px]" />
           <div className="text-white ml-[150px] flex flex-col justify-around h-115">
@@ -35,7 +35,7 @@ export const Section = () => {
               }}
               className="w-40 cursor-pointer"
             >
-              <div className="text-[#FFC178] flex items-center justify-between mt-5 w-[140px] h-[25px]">
+              <div className="text-[#FFC178] flex items-center justify-between mt-5 w-[140px] h-[25px] hover:scale-110">
                 <p>читать дальше</p>
                 <img src={arrow} alt="" className="mt-1" />
               </div>

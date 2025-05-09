@@ -1,13 +1,13 @@
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTelegramPlane, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="bg-black text-white w-full py-16 px-20">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold">QWERy</h1>
+        <h1 className="text-3xl font-bold">WunderTrip</h1>
         <div className="flex items-center gap-4">
           <p className="text-sm">Готовы к путешествию?</p>
-          <button className="bg-[#FFA337] text-black font-semibold px-5 py-2 rounded-md">
+          <button className="bg-[#FFA337] text-black font-semibold px-5 py-2 rounded-md cursor-pointer hover:scale-110 transition">
             Начать
           </button>
         </div>
@@ -70,14 +70,32 @@ const Footer = () => {
           <span>Политика конфиденциальности</span>
         </div>
         <div className="flex gap-4 text-white text-lg">
-          <FaFacebookF />
-          <FaTwitter />
-          <FaInstagram />
+          <a
+            href="https://t.me/abjukm"
+            target="_blank"
+            className="text-white hover:text-blue-400"
+          >
+            <FaTelegramPlane />
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            className="text-white hover:text-pink-500"
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            className="text-white hover:text-blue-600"
+          >
+            <FaFacebookF />
+          </a>
         </div>
       </div>
 
       <p className="text-center text-gray-500 text-sm mt-10">
-        © 2021 QWERy. Все права защищены.
+        ©2025 WunderTrip. Мы за хороший отдых.
       </p>
     </footer>
   );

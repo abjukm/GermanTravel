@@ -1,7 +1,7 @@
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import berlin from "/berlin.png";
+import berlin from "../assets/img/contentImg/berlin.png";
 import munhen from "../assets/img/contentImg/munhen.png";
 import gamburg from "../assets/img/contentImg/gamburg.png";
 import frankfurt from "../assets/img/contentImg/frankfurt.png";
@@ -46,12 +46,12 @@ const Content = () => {
   };
 
   return (
-    <div className="bg-black h-screen w-screen overflow-hidden">
+    <div className="bg-black h-[900px] w-full overflow-hidden">
       <Slider {...settings}>
         {slides.map((slide, idx) => (
           <div className="w-full h-full relative" key={idx}>
             <div
-              className="relative w-[70%] ml-[15%] h-[600px] inset-0 bg-cover bg-center mt-20"
+              className="relative w-[70%] ml-[15%] h-[700px] inset-0 bg-cover bg-center mt-20"
               style={{ backgroundImage: `url(${slide.image})` }}
             >
               <div className="absolute inset-0 bg-black/50"></div>
@@ -66,7 +66,7 @@ const Content = () => {
                 <p className="text-sm md:text-base max-w-3xl mb-6">
                   {slide.text}
                 </p>
-                <div className="text-[#FFC178] flex items-center justify-between mt-5 w-[140px] h-[25px] cursor-pointer">
+                <div className="text-[#FFC178] flex items-center justify-between mt-5 w-[140px] h-[25px] cursor-pointer hover:scale-110">
                   <p>читать дальше</p>
                   <img src={arrow} alt="" className="mt-1" />
                 </div>

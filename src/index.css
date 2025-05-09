@@ -1,15 +1,5 @@
 @import "tailwindcss";
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-body,
-html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-=======
-=======
->>>>>>> f4e6ceb92ea29862464351617dc4b93423585fc7
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,9 +14,6 @@ body,
   padding: 0;
   height: 100%;
   width: 100%;
-<<<<<<< HEAD
->>>>>>> 58ce05c6f8a13403e6fcf756a5ddca361eeda7e0
-=======
 }
 
 body,
@@ -34,5 +21,4 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
->>>>>>> f4e6ceb92ea29862464351617dc4b93423585fc7
 }
