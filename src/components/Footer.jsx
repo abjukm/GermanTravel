@@ -28,7 +28,7 @@ const Footer = () => {
               placeholder="Адрес электронной почты"
               className="bg-transparent outline-none text-sm py-2 w-full"
             />
-            <button className="bg-[#FFA337] text-black px-4 rounded-bl-none rounded-br-md">
+            <button className="bg-[#FFA337] text-black px-4 rounded-bl-none rounded-br-md hover:bg-[#bbbbbd] cursor-pointer">
               →
             </button>
           </div>

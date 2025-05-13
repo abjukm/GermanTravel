@@ -7,6 +7,7 @@ import gamburg from "../assets/img/contentImg/gamburg.png";
 import frankfurt from "../assets/img/contentImg/frankfurt.png";
 import arrow from "../assets/icons/arrow.svg";
 import Slider from "react-slick";
+import { FaChevronRight } from "react-icons/fa";
 
 export const slides = [
   {
@@ -75,6 +76,15 @@ const Content = () => {
           </div>
         ))}
       </Slider>
+      <div className="absolute top-[1890px] w-40 right-3 transform -translate-y-1/2 flex items-center text-white gap-2 z-10">
+        <p className="text-xl rotate-90 tracking-widest mt-2">SWIPE</p>
+        <button className="p-2 hover:text-[#FFC178] ml-[-40px]">
+          <FaChevronRight size={50} />
+        </button>
+        <button className="p-2 hover:text-[#FFC178] ml-[-50px]">
+          <FaChevronRight size={40} />
+        </button>
+      </div>
     </div>
   );
 };
